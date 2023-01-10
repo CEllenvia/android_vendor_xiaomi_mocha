@@ -58,9 +58,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mocha/proprietary/vendor/lib/egl/libEGL_tegra.so:system/vendor/lib/egl/libEGL_tegra.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/egl/libGLESv1_CM_tegra.so:system/vendor/lib/egl/libGLESv1_CM_tegra.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/egl/libGLESv2_tegra.so:system/vendor/lib/egl/libGLESv2_tegra.so \
-    vendor/xiaomi/mocha/proprietary/lib/hw/audio_policy.tegra.so:system/lib/hw/audio_policy.tegra.so \
-    vendor/xiaomi/mocha/proprietary/lib/hw/camera.vendor.tegra.so:system/lib/hw/camera.vendor.tegra.so \
-    vendor/xiaomi/mocha/proprietary/lib/hw/lights.tegra.so:system/lib/hw/lights.tegra.so \
+    vendor/xiaomi/mocha/proprietary/lib/hw/audio_policy.tegra.so:system/vendor/lib/hw/audio_policy.tegra.so \
+    vendor/xiaomi/mocha/proprietary/lib/hw/camera.vendor.tegra.so:system/vendor/lib/hw/camera.vendor.tegra.so \
+    vendor/xiaomi/mocha/proprietary/lib/hw/lights.tegra.so:system/vendor/lib/hw/lights.tegra.so \
     vendor/xiaomi/mocha/proprietary/lib/libsensors.lsm6db0.so:system/lib/libsensors.lsm6db0.so \
     vendor/xiaomi/mocha/proprietary/lib/libsensors.mpu6515.so:system/lib/libsensors.mpu6515.so \
     vendor/xiaomi/mocha/proprietary/lib/hw/ts.default.so:system/lib/hw/ts.default.so \
@@ -219,4 +219,5 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libaffinitydaemon.so:system/vendor/lib/libaffinitydaemon.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libstagefrighthw.so:system/vendor/lib/libstagefrighthw.so \
      vendor/xiaomi/mocha/proprietary/vendor/lib/libnvgov_ui.so:system/vendor/lib/libnvgov_ui.so \
+     vendor/xiaomi/mocha/proprietary/vendor/lib/libgov_ui.so:system/vendor/lib/libgov_ui.so \
     
