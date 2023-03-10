@@ -17,7 +17,8 @@
 PRODUCT_PACKAGES += \
     omniswitch \
     aurora \
-    auroradroid
+    auroradroid \
+    SimpleKeyboard
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/mocha/proprietary/bin/bt_loader.sh:system/vendor/bin/bt_loader.sh \
