@@ -55,6 +55,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mocha/proprietary/vendor/lib/egl/libEGL_tegra.so:system/vendor/lib/egl/libEGL_tegra.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/egl/libGLESv1_CM_tegra.so:system/vendor/lib/egl/libGLESv1_CM_tegra.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/egl/libGLESv2_tegra.so:system/vendor/lib/egl/libGLESv2_tegra.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/alsaold.so:system/vendor/lib/alsaold.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/hw/audio.primary.vendor.tegra.so:system/vendor/lib/hw/audio.primary.vendor.tegra.so \
     vendor/xiaomi/mocha/proprietary/lib/hw/audio_policy.tegra.so:system/vendor/lib/hw/audio_policy.tegra.so \
     vendor/xiaomi/mocha/proprietary/lib/hw/camera.vendor.tegra.so:system/vendor/lib/hw/camera.vendor.tegra.so \
     vendor/xiaomi/mocha/proprietary/lib/hw/lights.tegra.so:system/vendor/lib/hw/lights.tegra.so \
@@ -67,7 +69,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mocha/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
     vendor/xiaomi/mocha/proprietary/lib/libmllite.so:system/lib/libmllite.so \
     vendor/xiaomi/mocha/proprietary/lib/libmplmpu.so:system/lib/libmplmpu.so \
-    vendor/xiaomi/mocha/proprietary/lib/libnvoice.so:system/lib/libnvoice.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvoice.so:system/vendor/lib/libnvoice.so \
     vendor/xiaomi/mocha/proprietary/lib/libopencv24_tegra.so:system/lib/libopencv24_tegra.so \
     vendor/xiaomi/mocha/proprietary/lib/librm31080.so:system/lib/librm31080.so \
     vendor/xiaomi/mocha/proprietary/lib/librm_ts_service.so:system/lib/librm_ts_service.so \
@@ -215,5 +217,4 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libaffinitydaemon.so:system/vendor/lib/libaffinitydaemon.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libstagefrighthw.so:system/vendor/lib/libstagefrighthw.so \
      vendor/xiaomi/mocha/proprietary/vendor/lib/libnvgov_ui.so:system/vendor/lib/libnvgov_ui.so \
-     vendor/xiaomi/mocha/proprietary/vendor/lib/libgov_ui.so:system/vendor/lib/libgov_ui.so \
-    
+     vendor/xiaomi/mocha/proprietary/vendor/lib/libgov_ui.so:system/vendor/lib/libgov_ui.so
